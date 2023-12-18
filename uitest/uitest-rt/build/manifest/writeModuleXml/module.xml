@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="uitest-rt" bajaVersion="0" vendor="jci" vendorVersion="1.0" description="test ux build" preferredSymbol="uitest" nre="true" autoload="true" installable="true" buildMillis="%%BUILD_MILLIS%%" buildHost="maxdevniagara" moduleName="uitest" runtimeProfile="rt">
+ <dependencies>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.13"/>
+ </dependencies>
+ <dirs/>
+ <installation/>
+ <permissions>
+  <niagara-permission-groups type="all"/>
+  <niagara-permission-groups type="workbench"/>
+  <niagara-permission-groups type="station"/>
+ </permissions>
+ <moduleParts>
+  <modulePart name="uitest-ux" runtimeProfile="ux"/>
+ </moduleParts>
+</module>

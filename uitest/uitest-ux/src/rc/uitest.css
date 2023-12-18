@@ -1,0 +1,21 @@
+.widgetDemo {
+  background-color: #eeeeff;
+}
+
+.widgetDemo p {
+  font-family: 'footerFont';
+}
+
+.widgetDemo h1, .widgetDemo h2, .widgetDemo h3 {
+  font-family: 'headerLink';
+}
+
+.widgetDemo .virtues {
+  background-color: #ffffff;
+  padding: 5px 15px;
+  border: 3px dotted black;
+  border-radius: 10px;
+}
+
+
+
